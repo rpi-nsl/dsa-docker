@@ -338,8 +338,8 @@ RUN cd /usr/bin \
 
 
 RUN cd /usr/bin \
-    && ln -s /usr/local/openjdk-11/bin/javac \
-    && ln -s /usr/local/openjdk-11/bin/java
+    && ln -s /usr/local/openjdk-11/bin/javac javac \
+    && ln -s /usr/local/openjdk-11/bin/java java
 
 ####
 # DSA specific stuff
